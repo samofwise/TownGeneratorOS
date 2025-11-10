@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-paper: #ccc5b8;
+  --font-family-sans: 'IM Fell Great Primer', serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-family-sans);
+    @apply bg-paper min-h-screen;
+  }
+}

@@ -1,19 +1,26 @@
-.project
-*.iml
-/Export
-/.idea
-/Assets
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Environment files containing secrets
-.env
-.env.*
-!.env.template
+node_modules
+**/node_modules
+dist
+dist-ssr
+*.local
 
-# Discord integration segregation
-discord/messages/tmp/
-discord/config/.env
-discord/config/.env.*
-!discord/config/.env.discord.template
-discord/python/__pycache__/
-**/__pycache__/
-*.pyc
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
